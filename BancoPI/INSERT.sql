@@ -11,9 +11,9 @@ insert into tbEmpresa (nomeEmpresa, cnpjEmpresa, segmento, telEmpresa ,emailEmpr
 -- INSER Usuario
 INSERT INTO tbusuario (nomeUsuario, senhaUsuario, permissoes)
  VALUES
-    ('Mac Loving', '123', 'total'),
-    ('Chico Alemão', '231', 'intermediario'),
-    ('Zé bunda', '321', 'basico');
+    ('Guilherme', '123', 'total'),
+    ('Anderson', '231', 'intermediario'),
+    ('Caio', '321', 'basico');
 
 SELECT * FROM tbusuario;
 
@@ -29,7 +29,7 @@ SELECT * FROM tbsensor;
 -- INSERT EntradaDados
 INSERT INTO tbentradasensor (valorEntrada, dtEntrada, idSensor)
  VALUES 
-	('20.5', '2023-03-09 20:15:00', '2'),
-    ('1', '2023-03-09 20:16:00', '1');
+	(20.5, '2023-03-09 20:15:00', 2),
+    (1, '2023-03-09 20:16:00', 1);
     
 SELECT * FROM tbentradasensor;
